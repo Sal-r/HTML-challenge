@@ -25,3 +25,14 @@
   display: table;
   clear: both;
 }
+.x4column {
+  flex: 25%;
+  max-width 25%;
+  padding: 0 4px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}

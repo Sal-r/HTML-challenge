@@ -27,10 +27,10 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="vis1.html">Latitude vs. Max Temperature</a>
-                <a class="dropdown-item" href="vis2.html">Latitude vs. Humidity</a>
-                <a class="dropdown-item" href="vis3.html">Latitude vs. Cloudiness</a>
-                <a class="dropdown-item" href="vis4.html">Latitude vs. Wind Speed</a>
+                <a class="dropdown-item" href="city-latitude-vs-max-temp.html">Latitude vs. Max Temperature</a>
+                <a class="dropdown-item" href="city-latitude-vs-cloudiness.html">Latitude vs. Humidity</a>
+                <a class="dropdown-item" href="city-latitude-vs-humidity.html">Latitude vs. Cloudiness</a>
+                <a class="dropdown-item" href="city-latitude-vs-wind-speed.html">Latitude vs. Wind Speed</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="comp.html">Comparison</a>
@@ -45,16 +45,28 @@
 
 <!--Jumbotron-->
 <div class="container-fluid">
-<div class="row jumbotron">
-    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10"></div>
         <div class="column2">
-        <h1>Latitude vs Wind Speed</h1>
-        <p class="lead"> <img src="../images/Fig4.png" width="450" height="360" alt="Latitude vs. Wind Speed" class='image-box' style="float:left">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. After Assembling the Dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-    </div>
-        <div class="column1">
-            <p></p>
+            <h1>Latitude vs Wind Speed</h1>
+            <p class="lead"> <img src="../images/Fig4.png" width="450" height="360" alt="City Latitude vs. Wind Speed" class='image-box' style="float:left">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. After Assembling the Dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </div>
-    </div>  
+        <!--4 images-->
+        <div class="x4column">
+            <a href="city-latitude-vs-max-temp.html">
+                <img src="../images/Fig1.png" width="200" height="200" alt="City Latitude vs. Max Temperature">
+            </a>
+            <img src="../images/Fig3.png" href="city-latitude-vs-humidity.html" width="200" height="200" alt="City Latitude vs. Humidity">
+        </div>
+        <div class="x4column">
+            <a href="city-latitude-vs-cloudiness.html">
+                <img src="../images/Fig2.png" width="200" height="200" alt="City Latitude vs. Cloudiness">
+            </a>
+            <a href="city-latitude-vs-wind-speed.html">
+                <img src="../images/Fig4.png" width="200" height="200" alt="City Latitude vs. Wind Speed">
+            </a>
+        </div>
+    </div>
 <!--
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
         <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Comparison</button></a>
