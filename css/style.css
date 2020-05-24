@@ -1,9 +1,9 @@
 .image-box {
-        style="float: left;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
 .column1 {
   float: left;
   width: 33.33%;
@@ -27,12 +27,19 @@
 }
 .x4column {
   flex: 25%;
-  max-width 25%;
-  padding: 0 4px;
+  max-width: 50%;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 8px; 
+  padding-left: 4px;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 8px; 
+  padding-left: 4px;
+;
 }
