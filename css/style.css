@@ -27,7 +27,7 @@
 }
 .x4column {
   flex: 25%;
-  max-width: 50%;
+  max-width: 100%;
   padding-top: 4px;
   padding-right: 4px;
   padding-bottom: 8px; 
